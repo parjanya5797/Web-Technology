@@ -1,0 +1,13 @@
+.container{
+	margin-left: 560px;
+	margin-top: 160px;
+	margin-right: 580px;
+	padding: 30px;
+	border: 14px darkgray dashed;
+	border-radius: 20px;
+}
+.heading{
+	text-align: center;		
+	font-size: 30px;
+	font-weight: 50px;
+}

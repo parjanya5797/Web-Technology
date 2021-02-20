@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form</title>
+	<style type="text/css">
+		.container{
+			margin-left: 380px;
+			margin-top: 130px;
+			margin-right: 380px;
+			padding: 30px;
+			border: 10px darkgray double;
+			border-radius: 20px;
+		}
+		.heading{
+			text-align: center;		
+			font-size: 30px;
+			font-weight: 50px;
+		}
+		.button{
+			text-align: center;
+			background: antiquewhite;
+			margin-top: 20px;
+			padding: 10px 25px 7px 25px;
+			border-radius: 20px;
+		}
+		.danger{
+			font-size: 10px;
+			text-align: center;
+			color: #ff0000;
+		}
+		.form-input{
+			width: 650px;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<form class="form">
+			<legend class="heading">Form</legend>
+			<div>
+				<label>Name</label>
+				<div>
+					<input type="text"class="form-input" name="name" placeholder="Enter  Name">
+				</div>
+			</div>
+			<div>
+				<label>Email</label>
+				<div>
+					<input type="email"class="form-input" name="email" placeholder="Enter Email">
+				</div>
+			</div>
+			<div>
+				<label>Bio</label>
+				<div>
+					<textarea type="text"class="form-input" name="bio" placeholder="Enter Bio">Enter Your Bio</textarea>
+					
+				</div>
+			</div>
+			<div>
+				<label>Class</label>
+				<div>
+					<select class="form-input" name="class">
+						<option selected disabled>Select A Class</option>
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>
+						<option value="5">5</option>
+					</select>
+				</div>
+			</div>
+			<div>
+				<label>Subject</label>
+				<div>
+					<input type="checkbox" name="subject" value="math" checked>Math
+					<input type="checkbox" name="subject" value="physics">Physics
+					<input type="checkbox" name="subject" value="statistics">Statistics
+					<input type="checkbox" name="subject" value="web-tech">Web Technology
+				</div>
+			</div>
+			<div>
+				<label>Gender</label>
+				<div>
+					<input type="radio" name="gender" value="male" checked>Male
+					<input type="radio" name="gender" value="female">Female
+				</div>
+			</div>
+
+			<button class="button" type="button">Submit</button>
+		</form>
+	</div>
+</body>
+</html>
